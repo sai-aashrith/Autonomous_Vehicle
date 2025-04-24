@@ -12,7 +12,7 @@ BASE_ROUTES=leaderboard/data/bench2drive220
 TEAM_AGENT=leaderboard/team_code/vad_b2d_agent.py
 
 # Config + Checkpoint
-TEAM_CONFIG=tools/vad_model/VAD_base_e2e_b2d.py+tools/vad_model/vad_b2d_base.pth
+TEAM_CONFIG=tools/vad_model/VAD_base_VADv2_config_voca4096.py+tools/vad_model/VADv2.pth
 
 # Output JSON files and logs
 BASE_CHECKPOINT_ENDPOINT=eval_bench2drive220
